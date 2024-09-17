@@ -1,0 +1,43 @@
+/* Basic styling for the plugin admin page */
+.wrap {
+    max-width: 100%;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.wp-list-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.wp-list-table thead {
+    background: #0073aa;
+    color: #fff;
+}
+
+.wp-list-table th, .wp-list-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-list-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.wp-list-table th {
+    font-weight: bold;
+}
+
+video {
+    border: 1px solid #ddd;
+    background: #000;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
